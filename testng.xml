@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <test verbose="2" preserve-order="true"
+          name="Test on Chrome">
+        <classes>
+            <class name="testscripts.TC_001"/>
+            <class name="testscripts.TC_002"/>
+        </classes>
+    </test>
+</suite>
